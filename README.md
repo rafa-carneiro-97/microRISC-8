@@ -212,10 +212,10 @@ READ_INTEGER:
 ## 🛠️ Instruções de Execução do Assembler e Criação do Arquivo Binário
 
 - Antes de rodar o programa, certifique-se de deixar o arquivo `main.asm` na pasta raiz do projeto em `/Assembler_microRISC-8`.
-- Para rodar o **Assembler microRISC-8**, segue a mesma ideia do emulador, abra o terminal de sua preferência em `/Assembler_microRISC-8` e execute o comando `java assembler.java -a` ou `java assembler.java -a main.asm`.
-- Por padrão, o programa irá buscar o arquivo `main.asm`, mas você pode executa-lo usando outro nome. Para isso, passe o nome dele depois do parâmetro `-a` na hora da execução, por exemplo, se meu Assembly for `meu-assembly.asm`, você colocará `java assembler.java -a meu-assembly.asm`
+- Para rodar o **Assembler microRISC-8**, segue a mesma ideia do emulador, abra o terminal de sua preferência em `/Assembler_microRISC-8` e execute o comando `java -jar assembler.jar -a` ou `java -jar assembler.jar -a main.asm`.
+- Por padrão, o programa irá buscar o arquivo `main.asm`, mas você pode executa-lo usando outro nome. Para isso, passe o nome dele depois do parâmetro `-a` na hora da execução, por exemplo, se meu Assembly for `meu-assembly.asm`, você colocará `java -jar assembler.jar -a meu-assembly.asm`
 - O Assembler só permite gerar um binário com o nome `ROM.bin`, sendo este o nome do binário da memória de leitura.
-- O menu de ajuda pode ser acessado escrevendo `java assembler.java -h` ou `java assembler.java -help`.
+- O menu de ajuda pode ser acessado escrevendo `java -jar assembler.jar -h` ou `java -jar assembler.jar -help`.
 
 ## 📦 Instruções de Execução de um Novo Arquivo Binário
 

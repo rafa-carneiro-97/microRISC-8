@@ -27,7 +27,7 @@ public class assembler {
 
             // Verifica se tem a flag "-help ou -h"
             if (args[0].equals("-help") || args[0].equals("-h")) {
-                System.out.println("\nExemplo de uso: \"java assembler.java -a "+inputFile+"\"");
+                System.out.println("\nExemplo de uso: \"java -jar assembler.jar -a "+inputFile+"\"");
                 System.out.println("\nOpcoes:\n");
                 System.out.println("  -a <assembler>    arquivo de entrada (padrao: "+inputFile+")");
                 System.out.println("  -h | -help        exibe a mensagem de ajuda\n");
